@@ -20,9 +20,9 @@ Evaluation logic is faked.
 import random
 
 from absl.testing import absltest
-from brain_autorl.evolving_rl import evolution_v2
-import brain_autorl.evolving_rl.graph_configs as gconfig
-from brain_autorl.evolving_rl.program import build_program
+import evolution_v2
+import graph_configs as gconfig
+from program import build_program
 import pyglove as pg
 
 

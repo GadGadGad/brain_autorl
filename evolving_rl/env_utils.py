@@ -33,8 +33,8 @@ from acme import specs
 from acme import wrappers
 from acme.tf import utils as tf2_utils
 from acme.utils import loggers
-from brain_autorl.evolving_rl.env_config import atari_env_config
-from brain_autorl.evolving_rl.env_config import full_env_config
+from env_config import atari_env_config
+from env_config import full_env_config
 from bsuite import bsuite
 import gym
 from gym_minigrid.minigrid import COLOR_TO_IDX

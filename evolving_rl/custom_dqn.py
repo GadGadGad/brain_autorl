@@ -36,9 +36,9 @@ from acme.tf import utils as tf2_utils
 from acme.tf import variable_utils as tf2_variable_utils
 from acme.utils import counting
 from acme.utils import loggers
-from brain_autorl.evolving_rl.custom_replay import TransitionReplayLite
-from brain_autorl.evolving_rl.env_config import atari_env_config
-from brain_autorl.evolving_rl.env_utils import LinearSchedule
+from custom_replay import TransitionReplayLite
+from env_config import atari_env_config
+from env_utils import LinearSchedule
 import dm_env
 import reverb
 import sonnet as snt

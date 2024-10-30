@@ -20,14 +20,14 @@ from typing import List, Optional
 import urllib
 
 from absl import logging
-from brain_autorl.evolving_rl.ops import ConstantGenNode
-from brain_autorl.evolving_rl.ops import DTYPE
-from brain_autorl.evolving_rl.ops import InputNode
-from brain_autorl.evolving_rl.ops import LossOpNode
-from brain_autorl.evolving_rl.ops import Node
-from brain_autorl.evolving_rl.ops import NodeConstructor
-from brain_autorl.evolving_rl.ops import OpNode
-from brain_autorl.evolving_rl.program_search import ProgramSpec
+from ops import ConstantGenNode
+from ops import DTYPE
+from ops import InputNode
+from ops import LossOpNode
+from ops import Node
+from ops import NodeConstructor
+from ops import OpNode
+from program_search import ProgramSpec
 import pydot
 import tensorflow as tf
 

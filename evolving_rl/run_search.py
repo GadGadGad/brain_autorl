@@ -19,13 +19,13 @@ import time
 from absl import app
 from absl import flags
 from absl import logging
-from brain_autorl.evolving_rl import evolution_v2
-from brain_autorl.evolving_rl.custom_dqn import DQN
-from brain_autorl.evolving_rl.custom_dqn import make_networks
-from brain_autorl.evolving_rl.env_utils import run_train_loop
-import brain_autorl.evolving_rl.graph_configs as gconfig
-from brain_autorl.evolving_rl.program import build_program
-from brain_autorl.evolving_rl.program import InvalidProgramError
+import evolution_v2
+from custom_dqn import DQN
+from custom_dqn import make_networks
+from env_utils import run_train_loop
+import graph_configs as gconfig
+from program import build_program
+from program import InvalidProgramError
 import numpy as np
 import pyglove as pg
 import tensorflow as tf

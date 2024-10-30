@@ -22,13 +22,13 @@ import random
 import typing
 from absl import logging
 
-from brain_autorl.evolving_rl.ops import LossOpNode
-from brain_autorl.evolving_rl.ops import Node
-from brain_autorl.evolving_rl.program import build_program
-from brain_autorl.evolving_rl.program import get_possible_input_idxs
-from brain_autorl.evolving_rl.program import Program
-from brain_autorl.evolving_rl.program import sample_valid_program_spec
-from brain_autorl.evolving_rl.program_search import ProgramSpec
+from ops import LossOpNode
+from ops import Node
+from program import build_program
+from program import get_possible_input_idxs
+from program import Program
+from program import sample_valid_program_spec
+from program_search import ProgramSpec
 import numpy as np
 import pyglove as pg
 

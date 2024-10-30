@@ -16,8 +16,8 @@
 import itertools
 from typing import List, Tuple
 
-from brain_autorl.evolving_rl.ops import DummyOpNode
-from brain_autorl.evolving_rl.ops import LossOpNode
+from ops import DummyOpNode
+from ops import LossOpNode
 import numpy as np
 import pyglove as pg
 

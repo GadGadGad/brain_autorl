@@ -19,12 +19,12 @@ specifications include the available operators in the graph, number of nodes
 in the graph, and what the existing operations in the graph are, and whether
 to freeze the existing operations or not.
 """
-import brain_autorl.evolving_rl.ops as opdefs
-from brain_autorl.evolving_rl.ops import ConstantGenNode
-from brain_autorl.evolving_rl.ops import DTYPE
-from brain_autorl.evolving_rl.ops import InputNode
-from brain_autorl.evolving_rl.ops import ParamNode
-from brain_autorl.evolving_rl.program_search import create_search_space
+import ops as opdefs
+from ops import ConstantGenNode
+from ops import DTYPE
+from ops import InputNode
+from ops import ParamNode
+from program_search import create_search_space
 
 
 def pre_graph_3(program_length=7):
