@@ -1,17 +1,17 @@
-pyglove
+pyglove==0.2.1
 
 dm-acme==0.4.0
 dm-sonnet==2.0.0
 dm-reverb==0.7.1
 trfl==1.2.0
 
-gym
+gym==0.25.2
 gym_minigrid
 bsuite
 
 numpy==1.22.2
 jax==0.3.6
-jaxlib==0.3.5
+jaxlib @ https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.3.5+cuda11.cudnn82-cp38-none-manylinux2010_x86_64.whl
 tensorflow==2.8.0
 tensorflow-probability==0.15.0
 
